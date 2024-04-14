@@ -1,0 +1,24 @@
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> cd
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git init
+Initialized empty Git repository in C:/Users/User/OneDrive/繝・せ繧ｯ繝医ャ繝・git_challenge/.git/
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> echo "Hello,world!" >> hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git commit -m "hello_world.txtを追加"
+[main (root-commit) 4d4a30a] hello_world.txt繧定ｿｽ蜉
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hello_world.txt        
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> echo "こんにちは、世界！" >> hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git add hello_world.txt
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git status
+On branch main
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+[main 0a1d710] 譌･譛ｬ隱櫁ｨｳ繧定ｿｽ險
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git status
+On branch main
+nothing to commit, working tree clean
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge> git log --oneline
+0a1d710 (HEAD -> main) 日本語訳を追記
+4d4a30a hello_world.txtを追加
+PS C:\Users\User\OneDrive\デスクトップ\git_challenge>
